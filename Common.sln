@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{3DEA0EBB-D1FE-4CB0-A69C-02AB8B8E4628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{3DEA0EBB-D1FE-4CB0-A69C-02AB8B8E4628}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1921A268-7246-4060-B81C-BB033455C216}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{42C5792F-A893-45C7-9AE3-4D69574720A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Autofac", "Common.Autofac\Common.Autofac.csproj", "{EBDEB3EB-4B4F-42FA-BE35-D3C25140C0F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Tests", "Common.Tests\Common.Tests.csproj", "{BF5F558D-48DC-4C66-86C9-D0F57A9DB1EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +27,14 @@ Global
 		{3DEA0EBB-D1FE-4CB0-A69C-02AB8B8E4628}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DEA0EBB-D1FE-4CB0-A69C-02AB8B8E4628}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DEA0EBB-D1FE-4CB0-A69C-02AB8B8E4628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBDEB3EB-4B4F-42FA-BE35-D3C25140C0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDEB3EB-4B4F-42FA-BE35-D3C25140C0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBDEB3EB-4B4F-42FA-BE35-D3C25140C0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDEB3EB-4B4F-42FA-BE35-D3C25140C0F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5F558D-48DC-4C66-86C9-D0F57A9DB1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5F558D-48DC-4C66-86C9-D0F57A9DB1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5F558D-48DC-4C66-86C9-D0F57A9DB1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5F558D-48DC-4C66-86C9-D0F57A9DB1EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
