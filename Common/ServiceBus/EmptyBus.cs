@@ -9,7 +9,10 @@ namespace ESS.FW.Common.ServiceBus
         {
             
         }
-
+        public Uri Address
+		{
+			get;
+		}
         public void Publish<T>(T message) where T : class
         {
             

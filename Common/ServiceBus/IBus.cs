@@ -8,7 +8,10 @@ namespace ESS.FW.Common.ServiceBus
     public interface IBus : ISendOnlyBus
     {
         
-
+        Uri Address
+		{
+			get;
+		}
 
     }
 }
